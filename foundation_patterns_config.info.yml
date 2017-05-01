@@ -6,5 +6,8 @@ package: User interface
 dependencies:
   - system (>=8.3.0)
   - components
+  - field_layout
+  - paragraphs
   - ui_patterns
+  - ui_patterns_layouts
   - ui_patterns_library
