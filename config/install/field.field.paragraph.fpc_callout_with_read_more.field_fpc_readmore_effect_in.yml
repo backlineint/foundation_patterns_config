@@ -12,9 +12,11 @@ entity_type: paragraph
 bundle: fpc_callout_with_read_more
 label: 'Effect In'
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: fade-in
 default_value_callback: ''
 settings: {  }
 field_type: list_string
