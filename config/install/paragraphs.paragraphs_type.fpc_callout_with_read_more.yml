@@ -1,7 +1,0 @@
-uuid: feefba43-a727-4df5-a038-260d8506ba74
-langcode: en
-status: true
-dependencies: {  }
-id: fpc_callout_with_read_more
-label: 'Callout with Read More'
-behavior_plugins: {  }
