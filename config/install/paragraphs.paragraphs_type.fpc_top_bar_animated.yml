@@ -1,0 +1,7 @@
+uuid: 0ee0c85d-f67b-4e7e-bd87-cd83f2ea68b7
+langcode: en
+status: true
+dependencies: {  }
+id: fpc_top_bar_animated
+label: 'Top Bar with Animation'
+behavior_plugins: {  }
