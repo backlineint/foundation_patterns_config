@@ -8,24 +8,26 @@ dependencies:
   module:
     - entity_reference_revisions
     - field_layout
-    - layout_discovery
+    - foundation_patterns
 third_party_settings:
   field_layout:
-    id: layout_onecol
-    settings: {  }
+    id: pattern_top_bar_animated
+    settings:
+      pattern:
+        field_templates: only_content
 id: paragraph.fpc_top_bar_animated.default
 targetEntityType: paragraph
 bundle: fpc_top_bar_animated
 mode: default
 content:
   field_fpc_top_bar_button_text:
+    type: string
     weight: 1
+    region: button_link
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
-    region: content
   field_fpc_top_links:
     type: entity_reference_revisions_entity_view
     weight: 0
@@ -34,5 +36,5 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    region: content
+    region: top_links
 hidden: {  }
